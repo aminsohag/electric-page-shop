@@ -6,6 +6,9 @@
     .nav-title{
         margin-bottom: 20px;
     }
+    .ban-card{
+        left: 20%;
+    }
 }
 
 /* small device */
@@ -18,9 +21,21 @@
     }
     .navbar{
         flex-direction: row;
-       
     }
     .nav-title{
         margin-bottom: 0px;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .ban-card{
+        left: 35%;
     }
 }

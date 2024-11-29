@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.banner{
+.navbar-content{
     max-width: 80%;
     margin: 0 auto;
 }
@@ -30,4 +30,46 @@
 }
 .nav-menu{
     display:none ;
+}
+/* main content */
+.main-content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.banner-text{
+    width: 47%;
+    text-align: center;
+}
+.banner-image{
+    width: 47%;
+    position: relative;
+}
+.ban-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(242,242,242);
+    border-radius: 10px;
+}
+.banner-btn{
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 12px 10px 0 0;
+}
+.ban-card{
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    width: max-content;
+    padding: 14px 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
 }
