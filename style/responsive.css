@@ -9,6 +9,9 @@
     .ban-card{
         left: 20%;
     }
+    .card-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* small device */
@@ -38,4 +41,9 @@
     .ban-card{
         left: 35%;
     }
+    .card-content{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
 }
